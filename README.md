@@ -1,5 +1,4 @@
 
-![Red-Team](https://www.sakshamdixit.com/wp-content/uploads/2020/07/unnamed.png)
 ![Lenin](http://risovach.ru/upload/2013/12/mem/hitryj-lenin_38331921_big_.jpg)
 
 Слил у братьев по комунизму и фанатов нашего Ильича ... который кстати завещал, всем делится!
