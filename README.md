@@ -1,5 +1,5 @@
 
-[![Red-Team]](https://www.sakshamdixit.com/wp-content/uploads/2020/07/unnamed.png)
+![Red-Team](https://www.sakshamdixit.com/wp-content/uploads/2020/07/unnamed.png)
 
 ``````
 ##  суть RT
