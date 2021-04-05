@@ -1,5 +1,5 @@
 
-![Lenin](http://risovach.ru/upload/2013/12/mem/hitryj-lenin_38331921_big_.jpg)
+![Lenin](/Lenin.jpg)
 
 Слил у братьев по комунизму и фанатов нашего Ильича ... который кстати завещал, всем делиться!
 
