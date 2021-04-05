@@ -1,6 +1,9 @@
 
 ![Red-Team](https://www.sakshamdixit.com/wp-content/uploads/2020/07/unnamed.png)
 
+Слил у братьев по комунизму и фанатов нашего Ильича ...
+
+```
 
 ##  суть RT
 
@@ -1364,3 +1367,4 @@
 -[http://patorjk.com](http://patorjk.com/) Текст в ASCII Art Generator
 -[https://www.seopojie.com](https://www.seopojie.com/) СПАМ, SEO
 
+```
