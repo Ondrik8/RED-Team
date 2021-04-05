@@ -1,5 +1,5 @@
 
-````
+``````
 ##  суть RT
 
 -https://mitre-attack.github.io/ Краткое изложение вики технологии атак от организации miter Technology
@@ -1574,4 +1574,5 @@
 -[https://www.nomoreransom.org](https://www.nomoreransom.org/) Анализ и восстановление распространенных программ-вымогателей.
 -https://www.cmd5.com/ Взлом HASH пароля онлайн
 -[https://www.onlinehashcrack.com](https://www.onlinehashcrack.com/) Онлайн-взлом пароля, уведомление по электронной почте
-````
+
+``````
