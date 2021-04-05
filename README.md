@@ -1,4 +1,6 @@
 
+[![Red-Team]](https://i.gifer.com/2KL5.gif)
+
 ``````
 ##  суть RT
 
