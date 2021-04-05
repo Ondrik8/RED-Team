@@ -1,7 +1,7 @@
 
 ![Red-Team](https://www.sakshamdixit.com/wp-content/uploads/2020/07/unnamed.png)
 
-``````
+
 ##  суть RT
 
 -https://mitre-attack.github.io/ Краткое изложение вики технологии атак от организации miter Technology
@@ -189,7 +189,7 @@
 -https://github.com/FortyNorthSecurity/EyeWitness Получите скриншоты целевого веб-сайта, служб vnc, rdp и попытайтесь получить учетные данные по умолчанию.
 -https://github.com/D4Vinci/Cr3dOv3r Инструмент для автоматического поиска просочившейся информации о пароле в соответствии с почтовым ящиком и для проверки того, можно ли использовать пароль учетной записи для входа на основные веб-сайты.
 
-#### Обнаружение пути
+#### Обнаружение пути входа
 
 -https://github.com/maurosoria/dirsearch Классическое сканирование пути к каталогам
 -https://github.com/TheM4hd1/PenCrawLer Интерфейс C #, веб-сканер и инструмент удаления пути к каталогам, в дополнение к обычному сканированию добавлен рекурсивный режим взрыва.
@@ -201,7 +201,7 @@
 -https://github.com/Go0s/SitePathScan Инструмент для извлечения пути к каталогам на основе сопрограмм, с aiohttp сканированием пути более чем в три раза быстрее, чем раньше
 -https://github.com/secfree/bcrpscan сканер веб-путей на основе поискового робота
 
-#### Отпечаток пальца | Порт
+#### Отпечатки метаданные | Обнаружение
 
 -https://github.com/nmap/nmap LUA, сканер портов Nmap, с мощной структурой скриптового движка
 -https://github.com/robertdavidgraham/masscan C, сканирование без сохранения состояния, вы можете вызвать nmap для распознавания отпечатков пальцев
@@ -249,7 +249,7 @@
 -https://github.com/Moham3dRiahi/XAttacker Web CMS Exploit tool, включая 66 различных эксплойтов для основной CMS.
 -https://github.com/code-scan/dzscan Первый интегрированный инструмент сканирования Discuz
 
-#### Файл содержит
+#### LFI
 
 -https://github.com/hvqzao/liffy локальный файл содержит инструменты эксплойтов
 -https://github.com/D35m0nd142/ Локальный файл Kadabra содержит инструменты для сканирования и эксплуатации уязвимостей.
@@ -373,17 +373,14 @@
 -https://github.com/wavestone-cdt/hadoop-attack-library метод тестирования и набор инструментов hadoop.
 
 
-
-
-
-#### Повторение уязвимости
+#### Yязвимости
 
 -https://github.com/vulhub/vulhub Vulhub - это полигон с открытым исходным кодом для широкой публики. Вы можете скомпилировать и запустить полный образ диапазона уязвимостей, выполнив две команды без ведома докера.
 
 -https://github.com/Medicean/VulApps собирает различные среды уязвимостей и единообразно использует формат Dockerfile для простоты использования. При этом также собирается среда инструмента безопасности.
 -https://github.com/bingohuang/docker-labs Создание онлайн-платформы для докеров.
 
-#### Запрос уязвимости
+#### Искать уязвимости | DB-exploit
 
 -https://wooyun.kieran.top/#! / До 2016 года, статья Wuyun Drops, публичная статья с подробностями об уязвимостях
 -https://wooyun.js.org/ До 2016 г., статья Wuyun Drops, статья о публичных уязвимостях
@@ -644,17 +641,6 @@
 
 #### Часто используемые плагины
 
-##### Меч муравья
-
--https://github.com/AntSword-Store/ Рынок плагинов China Ant Sword
-
-##### кали Linux
-
--https://github.com/secforce/sparta py, графическая связь приложений с Nmap, Nikto, Hydra и другими инструментами
--https://github.com/Manisso/fsociety Инструмент для установки в один клик, похожий на kali toolkit под Linux.
--https://github.com/LionSec/katoolin Используйте сервер Linux для автоматической установки набора инструментов kali.
--https://github.com/skavngr/rapidscan py2, простой, инструмент для привязки kali, инструмент для сканирования уязвимостей
--https://github.com/koenbuyens/kalirouter устанавливает Kali в качестве системы анализа трафика маршрутизации.
 
 ##### Nessus
 
@@ -732,7 +718,6 @@
 ##### CobaltStrike
 
 -https://github.com/Al1ex/CSPlugins CobaltStrike различные плагины
-
 -https://mp.weixin.qq.com/s/CEI1XYkq2PZmYsP0DRU7jg Используйте скрипт Aggressor для создания Cobalt Strike
 -https://github.com/rsmudge/armitage CobaltStrike Community Edition, вызов msf, один ко многим с интерфейсом
 -https://github.com/anbai-inc/CobaltStrike_Hanization CobaltStrike2.5 Китайская версия, основанная на библиотеке msf, исправленная после 3.0
@@ -748,7 +733,7 @@
 -https://github.com/dcsync/pycobalt py3, Python API для Cobalt Strike
 -https://www.cobaltstrike.com/aggressor-script/cobaltstrike.html Написаны плагины, связанные с CobaltStrike, один ко многим с интерфейсом
 
-##### Империя
+##### Empire PS
 
 -https://paper.tuisec.win/detail/f3dce68a0b4baaa Используйте Empire для получения полномочий на управление доменом
 -https://github.com/EmpireProject/Empire-GUI интерфейс node.js империи
@@ -761,14 +746,13 @@
 
 ## Безопасность локально сети
 
-#### Рекомендуемое содержание
+#### Рекомендуемое к прочтению
 
 -https://attack.mitre.org/wiki/Lateral_Movement сводка бокового движения митры
 -https://payloads.online/archivers/2018-11-30/1 Глубокое понимание аутентификации Windows. Интерпретация темы.
 -https://github.com/klionsec/klionsec.github.io Интранет Учебное путешествие Дэниела
 -https://github.com/l3m0n/pentest_study Обучение проникновению в интрасеть с нуля
 -https://github.com/Ridter/Intranet_Penetration_Tips СОВЕТЫ по проникновению в интрасеть
-
 -https://github.com/OpenWireSec/metasploit структура проникновения сообщений
 -https://github.com/EmpireProject/Empire фреймворк для выполнения команд на основе poweshell
 -https://github.com/TheSecondSun/Bashark Фреймворк после проникновения, написанный на чистом сценарии Bash, Big Shark
@@ -795,7 +779,7 @@
 -https://github.com/m8r0wn/nullinux Внутренний инструмент тестирования на проникновение для Linux, который можно использовать для перечисления информации об операционной системе, информации домена, общих ресурсов, каталогов и пользователей через SMB.
 -https://github.com/zMarch/Orc bash, набор команд после заражения под Linux
 
-#### Пересылка | Прокси
+#### Reverse proxy
 
 -https://github.com/fatedier/frp Высокопроизводительное приложение обратного прокси для проникновения в интрасеть, поддерживающее протоколы tcp, udp, http, https.
 -https://github.com/inconshreveable/ngrok перенаправление портов, прямой и обратный прокси, проникновение в интрасеть
@@ -813,7 +797,7 @@
 -https://github.com/decoder-it/psportfwd Инструмент переадресации портов, написанный PowerShell, без разрешения администратора
 -https://github.com/ls0f/gortcp go, через главный терминал управления, передачу и управляемый терминал для достижения проникновения в интрасеть
 
-#### Горизонтальное движение
+#### Горизонтальное | Боковое движение 
 
 -http://www.oxid.it/cain.html Cain & Abel поддерживает восстановление пароля, атаку arp man-in-the-middle
 -https://github.com/gentilkiwi/mimikatz Артефакт горизонтального движения, основанный на захвате паролей под Windows.
@@ -829,47 +813,12 @@
 -https://github.com/GhostPack/Rubeus Библиотека для работы с Kerberos, которая реализует большинство функций Kekeo, написанных на C #.
 -https://github.com/m8r0wn/ldap_search PY, пройти аутентификацию по протоколу ldap (облегченный протокол доступа к каталогам), перечислить информацию о домене win, войти в систему
 
-#### Командное управление
 
--https://github.com/malwaredllc/byob фреймворк для создания ботнетов
--https://github.com/proxycannon/proxycannon-ng Создание атакующего ботнета
--https://github.com/deadPix3l/CryptSky/ Ransomware poc
--https://github.com/jgamblin/Mirai-Source-Code Червь poc
--https://github.com/AhMyth/AhMyth-Android-RAT на основе smali, удаленное управление Android под Windows, один-ко-многим с интерфейсом
--https://github.com/ssooking/cobaltstrike3.12_cracked java1.8, удаленное управление, фишинг, интранет
--https://github.com/Mr-Un1k0d3r/ThunderShell py2, CLI и веб, конь памяти, HTTP-передача с шифрованием RC4
--https://github.com/tiagorlampert/CHAOS go, win remote control, может убить большинство программ
--https://github.com/Ne0nd0g/merlin go, связь c2, один ко многим
--https://github.com/0x09AL/Browser-C2 перейти, использовать хром для подключения к серверу C2 в виде браузера
--https://github.com/xdnice/PCShare c ++, может контролировать экран целевой машины, реестр, файловую систему и т. д.
--https://github.com/quasar/QuasarRAT c #, один ко многим, интерфейс
--https://github.com/TheM4hd1/Vayne-RaT c #, один ко многим, интерфейс
--https://github.com/nettitude/PoshC2 PowerShell, C #, средство удаленного управления, с компонентом привилегий win
--https://github.com/euphrat1ca/njRAT-v0.7d vb, обычное дистанционное управление червем, есть много вариантов, один ко многим с интерфейсом
--https://github.com/zerosum0x0/koadic py3, используйте JScript / VBScript для управления, отличный меч
--https://github.com/Ridter/MyJSRat py2, используя бэкдор js, взаимодействуя с chm и hta, можно реализовать множество методов бэкдора. evi1cg.me/archives/chm_backdoor.html
--https://github.com/its-a-feature/Apfell py3, использование js-бэкдора под macOS и linux, управление веб-интерфейсом
--https://github.com/peterpt/fuzzbunch py2, инструмент для эксплуатации уязвимостей NSA, оснащенный скриптом автоматической установки и графическим интерфейсом, удаленное управление rat
--https://github.com/n1nj4sec/pupy py, Windows, Linux, OSX, кроссплатформенность Android, один ко многим
--https://github.com/nathanlopez/Stitch py, Windows, Mac OSX, кроссплатформенность Linux
--https://github.com/neoneggplant/EggShell py, удаленное управление macos / osx, может генерировать HID-код, один ко многим
--https://github.com/Marten4n6/EvilOSX py, удаленное управление macos / osx, один ко многим
--https://github.com/vesche/basicRAT py3, простое дистанционное управление, один ко многим
--https://github.com/Viralmaniar/Powershell-RAT py, скриншоты передаются через gmail
--https://github.com/byt3bl33d3r/gcat py, использовать gmail в качестве C&C сервера
--https://github.com/sweetsoftware/Ares py, общение c2, агент поддержки
--https://github.com/micle-fm/Parat py, используя телеграмму, инструмент удаленного управления под окнами
--https://github.com/ahhh/Reverse_DNS_Shell py, передача через dns
--https://github.com/iagox86/dnscat2 Сервер - ruby ​​(linux), клиент - C (win / linux), а протокол DNS используется для сквозной передачи
--https://github.com/deepzec/Grok-backdoor py, использовать бэкдор ngrok
--https://github.com/trustedsec/trevorc2 py, создать юридический веб-сайт (доступный для просмотра), чтобы скрыть связь клиент / сервер для выполнения команд
-
-#### Повышение 
+#### PrivESC
 
 ##### Повышение привилегий Linux
 
 -https://github.com/Al1ex/Heptagram/tree/master/Linux/Elevation Сборник повышения привилегий Linux
-
 -https://github.com/AlessandroZ/BeRoot py, найдите способы повышения привилегий, проверив типичные неправильные конфигурации. Поддержка Windows / Linux / Mac
 -https://github.com/mschwager/0wned Использовать пакет python для создания пользователей с высокими привилегиями
 -https://github.com/mzet-/linux-exploit-suggester найти скрипты, которые не были исправлены для Linux
@@ -907,7 +856,7 @@
 -https://github.com/alpha1ab/CVE-2018-8120 Добавлены winXP и win2k3 на базе win7 и win2k8
 -https://github.com/0xbadjuju/Tokenvator Инструмент для повышения разрешений с помощью токенов Windows, предоставляющий интерактивный интерфейс командной строки
 
-## Обход
+## Обход 
 
 ### Обход разрешений
 
@@ -925,7 +874,7 @@
 -https://github.com/ChrisAD/ads-payload Используйте переменные среды и destop.ini для обхода программного обеспечения защиты конечных точек Palo Alto Traps под Windows
 -https://github.com/Zer0Mem0ry/RunPE Чтение через память, передача содержимого по сети и выполнение шеллкода с использованием PE
 
-### Выход из песочницы
+### Побег из песочницы
 
 -https://github.com/hacksysteam/WpadEscape Использование wpad для выхода из песочницы браузера
 -https://github.com/unamer/vmware_escape побег виртуальной машины vmware. CVE-2017-4901, CVE-2018-6981, CVE-2018-6982
@@ -972,7 +921,7 @@
 -https://github.com/GuestGuri/Rootkit отказывает TCP-соединение и связывает идентификатор процесса с пустой папкой
 -https://github.com/secretsquirrel/the-backdoor-factory может сгенерировать программу тестирования бэкдора win32PE, бэкдор-программу файла ELF и т. д.
 
-### Пакет файлов
+### Конвертация файлов в разные форматы
 
 -Как и bat2exe.net, вы также можете использовать iexpress и winrar для создания самораспаковывающихся исполняемых файлов exe.
 -https://github.com/islamadel/bat2exe конвертирует файлы bat в двоичные файлы exe.
@@ -1021,7 +970,7 @@
 -[http://www.batmessenger.com](http://www.batmessenger.com/)
 -[http://sid.co](http://sid.co/)
 
-#### Связано со сканером
+#### Связано со сканероми 
 
 -https://github.com/alphardex/looter Облегченная структура краулера, аналогичная Scrapy
 -https://github.com/luyishisi/Anti-Anti-Spider
@@ -1031,7 +980,7 @@
 
 ## Социальная инженерия Fishing
 
-#### Рекомендуемое содержание
+#### Рекомендуемое для ознакомления..
 
 -https://github.com/brannondorsey/PassGAN py, глубокое обучение, генерация образца словаря паролей
 -https://github.com/Mebus/cupp Сгенерировать определение слабого пароля на основе обычного пароля пользователя
@@ -1153,13 +1102,7 @@
 -https://andrax-pentest.org/ система тестирования мобильных телефонов Kali Hunter на проникновение
 -https://www.zimperium.com/zanti-mobile-penetration-testing инструмент проникновения мобильного Wi-Fi
 
-#### Возврат данных
 
--https://github.com/TryCatchHCF/Cloakify Избегайте системы предотвращения утечки данных DLP / MLS, прорывайтесь через контроль белого списка данных, избегайте обнаружения AV для кражи данных
--https://github.com/sensepost/DET Использование одного или нескольких каналов для одновременного получения данных
--https://github.com/Arno0x/DNSExfiltrator Инструмент для секретной передачи данных с использованием разрешения DNS
--https://github.com/ytisf/PyExfil Программный пакет Python для поиска данных
--https://github.com/Arno0x/ReflectiveDnsExfiltrator Скрытый канал с отражающим DNS-разрешением для утечки данных
 
 ## Аппаратная безопасность
 
@@ -1178,9 +1121,9 @@
 -http://www.freebuf.com/news/others/605.html RFID Hacking- сборник ресурсов
 -https://github.com/UnicornTeam/HackCube-Special Unicorn Lab Аппаратная платформа для тестирования на проникновение
 
-## Безопасность Интернета вещей
+## Безопасность Интернета вещей / IOT
 
-#### Рекомендуемое содержание
+#### Рекомендуемое 
 
 -https://github.com/w3h/icsmaster Интеграция ресурсов безопасности промышленного контроля
 -https://github.com/V33RU/IoTSecurity101 Некоторые статьи и ресурсы для изучения безопасности промышленного управления IoT и безопасности IoT.
@@ -1207,7 +1150,7 @@
 -https://github.com/schutzwerk/CANalyzat0r Собственный набор инструментов для анализа безопасности автомобильных протоколов
 -https://github.com/pasta-auto Тест умного автомобиля
 
-#### Безопасность камеры
+#### Безопасность камер видеонаблюдения
 
 -https://github.com/woj-ciech/kamerka На карте отображается географическое положение камеры, просканированной API Shodan.
 -https://github.com/Ullaakut/cameradar GO, для теста на проникновение в протокол RTSP камеры, со слабым словарем паролей
@@ -1277,7 +1220,7 @@
 -https://github.com/awslabs/git-secrets инструмент для предотвращения отправки конфиденциальных данных в репозиторий git
 -https://github.com/zricethezav/gitleaks Go на основе, проверьте информацию о пароле и ключи в репозитории git
 
-## Обратный инжиниринг
+## Reverse инжиниринг
 
 -https://www.peerlyst.com/posts/resource-learning-how-to-reverse-malware-a-guide Коллекция руководств и инструментов по обратному проектированию вредоносных программ.
 -https://github.com/ReFirmLabs/binwalk Автоматизированный обратный инжиниринг двоичных файлов pwn с несколькими плагинами
@@ -1287,24 +1230,8 @@
 -https://github.com/blacknbunny/peanalyzer32 Инструмент для анализа и разборки PE файлов
 -https://github.com/DominicBreuker/pspy Вы можете контролировать процесс, запущенный без прав root
 
-## CTF связанные
 
--https://ctf-wiki.github.io/ctf-wiki/ CTFwiki ， Разное / Crypto / Web / Assembly / Executable / Reverse / Pwn / Android / ICS
--https://github.com/adon90/pentest_compilation Общие знания и команды в соревнованиях ctf и экзаменах OSCP
--https://github.com/gabemarshall/microctfs маленький зеркальный докер ctf
--https://github.com/giantbranch/pwn_deploy_chroot развернуть несколько вопросов pwn в контейнере докеров
--https://github.com/facebook/fbctf Структура соревнований CTF
--https://github.com/0Chencc/CTFCrackTools Пакет интеграции инструмента CTF
--https://github.com/guyoung/CaptfEncoder Семейное ведро кодирования паролей CTF, есть также небольшая версия программы
--https://github.com/Gallopsled/pwntools тип pwn, структура использования двоичных файлов
--https://github.com/ChrisTheCoolHut/Zeratool pwn-тип, структура двоичного использования
--https://github.com/ChrisTheCoolHut/Rocket-Shot pwn, скрипт автоматической атаки
--https://0xrick.github.io/lists/stego/ Steganography-Список полезных инструментов и ресурсов.
--https://github.com/DominicBreuker/stego-toolkit Набор инструментов для стеганографии
--https://github.com/bugsafe/WeReport Помощник по отчетам WeReport
--https://github.com/PELock/CrackMeZ3S-CTF-CrackMe-Tutorial Написание программного обеспечения CrackMe для соревнований CTF
-
-## Судебно-медицинское расследование
+## Судебно расследование
 
 #### Рекомендуемое содержание
 
@@ -1334,7 +1261,7 @@
 -https://github.com/abrignoni/DFIR-SQL-Query-Repo собирает шаблоны SQL-запросов для криминалистики данных
 -https://www.freebuf.com/news/193684.html Навыки криминалистики iOS: полностью экспортировать базу данных SQLite без потерь.
 
-#### Анализ проб
+#### Анализ семплов и где их брать
 
 -https://github.com/open-power-workgroup/Hospital Национальный список больниц отделения Путянь
 -https://github.com/chenerlich/FCL Коллекция командной строки, используемая вредоносным кодом
@@ -1373,31 +1300,9 @@
 -https://github.com/crazywa1ker/DarthSidious-Chinese Начните свое путешествие по проникновению в домен с 0, китайская версия DarthSidious
 -https://paper.seebug.org/772/ Как использовать KittyFuzzer для фаззинга протокола промышленного управления с компонентом протокола промышленного управления в ISF
 
-## Безопасная эксплуатация и техническое обслуживание
 
-#### Рекомендуемое содержание
 
--https://github.com/chaitin/cloudwalker Платформа управления безопасностью сервера CloudWalker, постепенно охватывающая управление активами сервера, сканирование угроз, уничтожение Webshell, базовое обнаружение и другие функции.
--https://github.com/mitre/caldera miter company испытательная система моделирования атаки, в основном под win
--https://github.com/guardicore/monkey оценивает состояние безопасности сети, разделенное на сканеры и серверы C2C, и использует пароли по умолчанию и срок действия для обнаружения атак на несколько протоколов, таких как ssh и smb.
--https://github.com/grayddq/PublicSecScan вызывает awvs для выполнения распределенного сканирования безопасности WEB на большом количестве ресурсов WEB и находит некоторые регулярные уязвимости безопасности в веб-среде.
--https://github.com/jeffzh3ng/Fuxi-Scanner управление активами, интеграция обнаружения уязвимостей awvs, Chuangyu Pocsuite, nmap, hydra
--https://github.com/infobyte/faraday Платформа для совместного тестирования на проникновение и управления уязвимостями, объединяющая несколько
--https://github.com/DefectDojo/django-DefectDojo платформа управления активами уязвимостей на основе django
--https://github.com/creditease-sec/insight веб-интерфейс, разработанный отделом безопасности CreditEase, управление активами интегрированной системы приложений, управление полным жизненным циклом уязвимостей, платформа управления триединством управления базой знаний по безопасности
--https://github.com/RASSec/A_Scan_Framework Управление уязвимостями, управление активами, система сканирования задач
--https://github.com/cea-sec/ivre обнаружение отпечатков пальцев сетевых ресурсов, создайте свой собственный шодан и зумай
--https://github.com/ysrc/xunfeng веб-интерфейс, механизм идентификации сетевых ресурсов и механизм обнаружения уязвимостей, разработанный Tongcheng Security
--https://github.com/superhuahua/xunfengES веб-интерфейс, базовая разработка Xunfeng, безопасность для одного человека
--https://github.com/zhaoweiho/SecurityManageFramwork py3, django. Платформа управления безопасностью интрасети предприятия, включая управление активами, управление уязвимостями, управление учетными записями, управление базой знаний, функциональные модули автоматизации сканирования безопасности
--https://github.com/grayddq/PublicMonitors выполняет сканирование службы портов в списке IP-адресов общедоступной сети и обнаруживает изменения службы портов в течение периода и риски безопасности, связанные с использованием слабых паролей. Отдел безопасности
--https://github.com/grayddq/PubilcAssetInfo Основная цель - сбор и обнаружение корпоративных доменных имен и общедоступных IP-ресурсов сервера с точки зрения сотрудников службы безопасности Стороны А. Такие как Baidu Cloud, Ali Cloud, Tencent Cloud и т. Д. Отдел безопасности
--https://github.com/maya6/SiteScan веб-интерфейс, py3 celery. Сбор активов
--https://github.com/ywolf/F-NAS: сканирование py2.6, сбор и организация сетевых ресурсов и служб портов, а также создание отчетов для отображения. быстрый
--https://github.com/flipkart-incubator/RTA сканирует все онлайн-устройства в компании, предоставляет общий обзор безопасности и помечает все исключения безопасности.
--https://github.com/0xbug/Biu-framework Среда сканирования безопасности для основных служб корпоративной интрасети.
-
-#### Снаряд убийства
+#### поиск web-shell в сайтах
 
 -http://www.safedog.cn/ Сетевой брандмауэр Safedog
 -http://d99net.net/ win, а D создал D shield_firewall, включая функции обнаружения waf и webshel
@@ -1409,7 +1314,7 @@
 -https://github.com/emposha/PHP-Shell-Detector Инструмент обнаружения веб-оболочки с эффективностью тестирования до 99%
 -https://github.com/emposha/Shell-Detector Инструмент сканирования веб-оболочки, поддержка сканирования веб-оболочки php / perl / asp / aspx
 
-#### испытание под давлением
+#### стресс тест
 
 -https://github.com/ywjt/Dshield защита от DDOS
 -https://github.com/NewEraCracker/LOIC/ Инструмент сетевого стресс-теста, разработанный для Windows, теперь поддерживает Mac OS-Translator's Note
@@ -1418,31 +1323,7 @@
 -https://github.com/mschwager/dhcpwn Инструмент атаки исчерпания IP-ресурсов DHCP
 -https://github.com/Microsoft/Ethr GO, кроссплатформенный инструмент для стресс-тестирования TCP, UDP, HTTP, HTTPS.
 
-#### Основы приманки
 
--https://github.com/paralax/awesome-honeypots Коллекция технологий с открытым исходным кодом Honeypot
--https://github.com/threatstream/mhn Современная сеть honeynet объединяет различные сценарии установки приманок, которые можно быстро развернуть и использовать, а также быстро собирать данные с узлов.
--https://github.com/dtag-dev-sec/tpotce T-POT, который использует технологию докеров для достижения нескольких комбинаций приманок и сотрудничает с ELK для исследований и сбора данных
--https://www.freebuf.com/sectool/190840.html Как использовать платформу T-Pot с несколькими приманками
--https://github.com/n3uz/t-pot-autoinstall Заменить сценарий установки в один клик приманки T-POT вилки на домашнее ускоренное зеркало
-
-#### Проверка приманки
-
--https://github.com/micheloosterhof/cowrie py2, использовать ELK (ElasticSearch, LogStash, Kibana) для анализа данных, в настоящее время поддерживает ssh, telnet, sftp и другие протоколы
--https://github.com/mushorg/snare py3, приманка для веб-безопасности, может клонировать указанные веб-страницы
--https://github.com/honeynet/beeswarm py, использовать зонды агентов для взаимодействия с приманками в реальном времени, чтобы заманить злоумышленников
--https://github.com/thinkst/opencanary PY2, SNMP \ RDP \ SAMBA honeypot
--https://github.com/p1r06u3/opencanary_web PY, TORNADO, приманка с низким уровнем взаимодействия в интрасети. Поддерживает автоматическую установку, в настоящее время поддерживает 16 распространенных протоколов и теперь представляет собой архитектуру управления зондом / приманкой. Вторичную разработку можно рассматривать как архитектуру управления тестовой песочницей.
--https://github.com/p1r06u3/opencanary_web
--https://github.com/Cymmetria, хорошо известная организация-приманка для защиты от обмана. Приманки для моделирования, такие как Struct, weblogic, telnet, Cisco ASA, Micros и т. Д.
--https://github.com/Cymmetria/honeycomb Фреймворк приманки с открытым исходным кодом Cymmetria, низкое взаимодействие
--https://github.com/honeytrap/honeytrap Расширяемая среда приманок, поддерживает развертывание зондов и приманки с высоким уровнем взаимодействия.
--https://gosecure.net/2018/12/19/rdp-man-in-the-middle-smile-youre-on-camera/ RDP MITM, чтобы создать приманку RDP, которая может записывать изображения и кнопки (https:/ /github.com/gosecure/pyrdp)
-
-#### Приманка для камеры
-
--https://github.com/alexbredo/honeypot-camera py, приманка для камеры. Торнадо имитирует веб-сервис, с изображениями вместо видео, вы можете подумать о добавлении дополнительных изображений и кнопок позже
--https://github.com/EasyDarwin/EasyIPCamera C, компонент сервера RTSP используется для создания приманки для камеры
 
 #### Приманка промышленного контроля
 
@@ -1451,44 +1332,6 @@
 -https://github.com/RabitW/IoTSecurityNAT Тестовая система IoT для облегчения быстрого доступа к различным устройствам для тестирования безопасности
 -https://github.com/mushorg/conpot Промышленная приманка с низким уровнем взаимодействия для ICS / SCADA, имитирующая Modbus и S7comm
 
-## Защита безопасности
-
-#### Рекомендуемое содержание
-
--https://github.com/baidu/AdvBox Advbox - это набор инструментов безопасности модели ИИ, который поддерживает несколько платформ глубокого обучения. Он не только поддерживает алгоритмы белого и черного ящика для генерации состязательных образцов, измеряет надежность моделей ИИ, но также поддерживает общий алгоритм защиты
--https://github.com/quoscient/octopus Инструмент анализа безопасности смарт-контрактов Blockchain
--https://github.com/Cyb3rWard0g/HELK Поиск угроз ELK с расширенными функциями анализа
--https://github.com/trimstray/otseca инструмент системного аудита Linux, который может экспортировать конфигурацию системы и создавать отчеты
--https://github.com/BugScanTeam/DNSLog - это инструмент на основе django для мониторинга записей разрешения DNS и записей доступа HTTP. Его можно использовать со слепой инъекцией, xss и разрешением реального IP-адреса другой стороны.
--https://github.com/mwrlabs/dref Инфраструктура использования повторной привязки DNS
--https://github.com/chengr28/Pcap_DNSProxy/blob/master/README.zh-Hans.md Pcap_DNSProxy - это инструмент на основе WinPcap / LibPcap для фильтрации загрязнения DNS-отравлением
--https://github.com/PlagueScanner/PlagueScanner Антивирусный движок, интегрированный с ClamAV, ESET и Bitdefender, реализованный на python
--https://github.com/m4rco-/dorothy2 Среда анализа троянских коней и ботнетов.
--http://github.com/jumpserver/jumpserver Машина-бастион с открытым исходным кодом, основанная на Python3
--https://github.com/github/glb-director Компонент балансировки нагрузки GLB, анализ данных использует dpdk
--https://github.com/processhacker/processhacker мониторинг системных ресурсов, отладка программного обеспечения, обнаружение вредоносных программ, управление процессами
--https://github.com/TKCERT/mail-security-tester Платформа тестирования для обнаружения систем защиты и фильтрации почты.
--https://github.com/chaitin/sqlchop-http-proxy использует обратный прокси-сервер HTTP, встроенный SQLChop в качестве модуля обнаружения атак SQL-инъекций, который может перехватывать трафик SQL-инъекций и освобождать нормальный трафик
--https://github.com/OWASP/SecureTea-Project Когда кто-то касается компьютерной мыши или сенсорной панели в частном порядке, он срабатывает.
-
-##### спасательное оборудование
-
--https://github.com/baidu/openrasp RASP, самозащита приложений во время выполнения, самозащита приложений в реальном времени, умнее, настраивается для каждого языка
--https://github.com/snort3/snort3 snort считается самым известным обнаружением вторжений с открытым исходным кодом.
--https://github.com/chaitin/yanshi Changting Yanshi (yanshi), инструмент генерации кода, используемый ядром брандмауэра SafeLine.
--https://github.com/SpiderLabs/ModSecurity C, кроссплатформенный движок WAF для Apache, IIS и Nginx
--https://github.com/klaubert/waf-fle Веб-консоль ModSecurity
--https://github.com/xsec-lab/x-waf Cloud waf для малых и средних предприятий
--https://github.com/jx-sec/jxwaf На основе разработки openrestynginx + lua, оригинального механизма защиты бизнес-логики и механизма машинного обучения, для решения тех болевых точек, которые традиционный WAF не может защитить безопасность бизнеса.
--https://github.com/loveshell/ngx_lua_waf брандмауэр веб-приложений на основе lua-nginx-moduleopenresty
--https://github.com/Janusec/janusec Шлюз безопасности приложений на основе Golang, с WAF, защитой от атак CC, шифрованием закрытого ключа сертификата, балансировкой нагрузки, унифицированным веб-управлением и другими функциями.
--https://github.com/SpiderLabs/owasp-modsecurity-crs набор общих правил обнаружения атак для использования с ModSecurity или совместимыми межсетевыми экранами веб-приложений
--https://github.com/kirillwow/ids_bypass Сценарий обхода IDS
--https://github.com/milo2012/ipv4bypass Использовать адрес ipV6 для обхода waf
--https://github.com/3xp10it/bypass_waf скрипт обхода межсетевого экрана
--https://github.com/m0rtem/CloudFail Для Cloudfail найдите реальный IP-адрес веб-сайта за CDN
--https://github.com/Nitr4x/whichCDN Идентификация и обнаружение CDN
--https://github.com/3xp10it/xcdn Попытайтесь узнать настоящий IP за cdn, блог 3xp10it.github.io
 
 #### Обнаружения вторжений
 
@@ -1521,60 +1364,3 @@
 -[http://patorjk.com](http://patorjk.com/) Текст в ASCII Art Generator
 -[https://www.seopojie.com](https://www.seopojie.com/) СПАМ, SEO
 
-#### Офисная одежда
-
--https://sadd.io/ онлайн-операционная система
--https://github.com/zyx0814/dzzoffice онлайн-офисный пакет, ДЕМО-сайт demo.dzzoffice.com
--https://github.com/RobbieHan/gistandard py, основанная на Django, OA система управления рабочими порядками
--https://github.com/pavanw3b/sh00t PY3, DJANGO, управление билетами проверки безопасности
--https://github.com/chaitin/strapdown-zeta На основе strapdown.js, изменение вторичной разработки вики-системы с открытым исходным кодом, поддержка уценки
--https://etherpad.net/ Редактируемый блокнот онлайн
--https://www.upload.ee/ платформа для обмена файлами
--https://github.com/micahflee/onionshare Анонимный обмен файлами с использованием onion onion server
--https://github.com/filebrowser/filebrowser GO, сетевой диск на основе фреймворка Caddy
--https://github.com/nextcloud/server php, диск частной облачной сети, ветка owncloud
--https://github.com/owncloud/core php, частный сетевой диск в облаке, интерфейс не красивый
--https://github.com/haiwen/seafile C, диск частной облачной сети, быстрая скорость и несколько функций
--https://github.com/ymfe/yapi инструмент управления API
--https://thyrsi.com/ Инструмент загрузки и обмена изображениями
-
-#### Интернет Сервис
-
--https://github.com/Kickball/awesome-selfhosted потрясающая серия приложений самообслуживания
--https://github.com/littlecodersh/itchat интерфейс личной учетной записи WeChat, робот WeChat и командная строка WeChat
--https://github.com/sym233/core-values-encoder js, шифрование основных ценностей социализма, https://sym233.github.io/core-values-encoder/
--https://github.com/valentinxxx/nginxconfig.io/ Создание файла конфигурации nginx в Интернете, URL демонстрации [https://nginxconfig.io](https://nginxconfig.io/)
--https://github.com/asciimoo/searx Создайте свою собственную поисковую систему, DEMO URL https://searx.me/
--http://sc.ftqq.com/3.version сервер WeChat уведомление
--[https://osint.link](https://osint.link/) Инструменты и ресурсы Open Source Intelligence (OSINT)
--[https://www.wolframalpha.com](https://www.wolframalpha.com/) Веб-сайт, который дает ответ непосредственно на основе вопроса
--shodan.io движок восприятия Интернета
--fofa.so NOSEC
--[https://www.oshadan.com](https://www.oshadan.com/) Обманивать поиск сетевых устройств_Hunan Anshu Network
--zoomeye.org знает о Chuangyu Internet Perception Engine.
--https://sms.cngrok.com/receiving-sms код получения
--https://www.pdflibr.com/ Получить код и получить код
--[https://www.fakenamegenerator.com](https://www.fakenamegenerator.com/) Многонациональный симулятор идентификационной информации
--[https://recruitin.net](https://recruitin.net/) С легкостью используйте Google для поиска профилей в LinkedIn.
--[https://www.truthfinder.com](https://www.truthfinder.com/) Информационный запрос граждан США
--[https://verify-email.org](https://verify-email.org/) Проверка подлинности почты
--[https://safeweb.norton.com](https://safeweb.norton.com/) Проверка безопасности веб-сайта Norton
--http://www.vuln.cn/tools/ftp онлайн-вход по FTP
--http://www.link114.cn/title/ Заголовки веб-сайтов с пакетным запросом
--https://www.whatweb.net/ распознавание отпечатков пальцев в Интернете
--https://hackertarget.com/ip-tools/ предоставляет API, инструменты, связанные с IP, онлайн-сканер
--http://www.webscan.cc/ Тот же IP-запрос веб-сайта, запрос сегмента C, проверка обратного доменного имени IP, примечание на полях сегмента C, инструмент примечаний на полях
--https://www.phpinfo.me/bing.php Онлайн-запрос к сайту | Запрос сегмента C | Запрос сегмента C интерфейса Bing
--https://www.phpinfo.me/domain/ удаление субдоменов онлайн
--[https://www.dnsdb.io](https://www.dnsdb.io/) DNS-запрос, запрос субдомена, IP-запрос, запрос записи, разрешение доменного имени, запрос стороннего сайта
--https://dnsdumpster.com/ dns разведка и исследование, поиск и просмотр записей DNS
--http://ip.chaxun.la/ обратная проверка ip доменного имени --- проверка
--[https://habo.qq.com](https://habo.qq.com/) Обнаружение вредоносных файлов в Интернете
--[https://www.virustotal.com](https://www.virustotal.com/) Обнаружение вредоносных программ.
--http://r.virscan.org/ Обнаружение вредоносного ПО
--[https://www.appscan.io](https://www.appscan.io/) онлайн-обнаружение мобильного программного обеспечения
--[https://www.nomoreransom.org](https://www.nomoreransom.org/) Анализ и восстановление распространенных программ-вымогателей.
--https://www.cmd5.com/ Взлом HASH пароля онлайн
--[https://www.onlinehashcrack.com](https://www.onlinehashcrack.com/) Онлайн-взлом пароля, уведомление по электронной почте
-
-``````
