@@ -1,4 +1,4 @@
-![[rtool](/42055366.png)](https://0xsp.com/offensive/red-teaming-toolkit-collection)
+![[rtool(/42055366.png)](https://0xsp.com/offensive/red-teaming-toolkit-collection)]
 
 
 
