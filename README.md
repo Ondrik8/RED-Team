@@ -1,10 +1,10 @@
+![[rtool](https://0xsp.com/uploads/42055366.png)](https://0xsp.com/offensive/red-teaming-toolkit-collection)
+
+
 
 ![Lenin](/Lenin.jpg)
 
 Слил у братьев по комунизму и фанатов нашего Ильича ... который кстати завещал, всем делиться!
-
-
-### https://0xsp.com/offensive/red-teaming-toolkit-collection
 
 
 ```
