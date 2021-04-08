@@ -1,5 +1,8 @@
-![[rtool](/42055366.png)(https://0xsp.com/offensive/red-teaming-toolkit-collection)
-
+<p align="center">
+  <body>
+    <img src="/42055366.png" width="500" height="600">
+  </body>
+</p>
 
 
 ![Lenin](/Lenin.jpg)
