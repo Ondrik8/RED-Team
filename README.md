@@ -1,4 +1,4 @@
-![smoke](/200.gif)
+![smoke](/wr-960.webp)
 
 ### [SHEET_1](https://0xsp.com/)   
 ### [SHEET_2](https://github.com/infosecn1nja/AD-Attack-Defense)
