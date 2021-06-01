@@ -1,5 +1,6 @@
 ![Misha](/mixa.jpg)
 
+### [A-Red-Teamer-diaries](https://github.com/ihebski/A-Red-Teamer-diaries)
 ### [RED-t-tools](https://github.com/lengjibo/RedTeamTools/tree/master/windows)
 ### [SHEET_1](https://0xsp.com/)   
 ### [SHEET_2](https://github.com/infosecn1nja/AD-Attack-Defense)
