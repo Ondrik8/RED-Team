@@ -1,4 +1,4 @@
-![Misha](/mixa.jpg)
+![Misha](/videoplayback-_online-video-cutter.com_.gif)
 
 ### [A-Red-Teamer-diaries](https://github.com/ihebski/A-Red-Teamer-diaries)
 ### [RED-t-tools](https://github.com/lengjibo/RedTeamTools/tree/master/windows)
